@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rambo3 | ThongTran199</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon-32x32.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Rambo3.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#about">Thông tin</a></li>
+          <li><a href="#services">Tác giả</a></li>
+          <li><a href="#howtoplay">Cách chơi</a></li>
+          <li><a href="#control">Điều khiển</a></li>
+          <li><a href="#setup">Cài đặt</a></li>
+          <li><a href="#lib">Thư viện yêu cầu</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/thongtran199/PythonRambo3.git" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-two">Rambo3</div>
+          <div class="text-three">Game socket 2 người chơi <br> trên mạng LAN</div>
+          <div class="text-four">Đồ án môn học, xây dựng bởi ThongTran199</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>Thông tin về trò chơi</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/bgserver.png" alt="" />
+          </div>
+          <div class="right">
+            <p>
+Rambo3 là một trò chơi hành động bắn súng được phát triển để đáp ứng yêu cầu của môn học phát triển phần mềm mã nguồn mở. Game được xây dựng trên nền tảng Pygame và sử dụng ngôn ngữ Python.
+
+Trò chơi được thiết kế để chơi tối đa 2 người trên cùng một mạng LAN, giúp người chơi có thể tương tác với nhau và cùng trải nghiệm trò chơi. Trong game, người chơi sẽ vào vai nhân vật Rambo và chiến đấu với người chơi còn lại. 
+
+Để tạo ra trò chơi này, mình đã sử dụng kiến thức về socket và thread để xây dựng tính năng chơi game đa người chơi. Mình cũng đã áp dụng các kỹ thuật lập trình hướng đối tượng để tạo ra các đối tượng trong game như vũ khí, bậc đá và nhân vật Rambo.
+
+Nếu bạn là một người yêu thích trò chơi hành động và muốn trải nghiệm trò chơi Rambo3 cùng với bạn bè, hãy tải game và tham gia vào cuộc chiến ngay bây giờ!
+            </p>
+            <div style="display: flex; justify-content: start;">
+              <div class="button" style="margin-right: 15px;">
+                <button><i class="fa-brands fa-windows" style="margin-right: 12px;"></i><a href="Rambo3Window.zip" style="color: white;"> Dành cho Window</a></button>
+              </div>
+              <div class="button">
+                <button><i class="fa-brands fa-linux" style="margin-right: 12px;"></i><a href="Rambo3Linux.tar" style="color: white;"> Dành cho Linux</a></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Sinh viên thực hiện</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <img src="images/png_client.png" alt="" style="width: 100%; height: auto;border-radius: 50%;">
+            </div>
+            <div class="topic"><span style="font-size: 18px;">3120410509</span> <br>Trần Văn Thông</div>
+            <p>
+              Sinh viên năm 3 ngành CNTT
+              <br>Trường Đại học Sài Gòn
+            </p>
+            <div class="inf-div">
+              <a class="inf-link" href="https://www.facebook.com/van.thong.16548/"><i class="fab fa-facebook-f"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <!-- <div class="box">
+            <div class="icon">
+              <img src="images/png_client.png" alt="" style="width: 100%; height: auto;border-radius: 50%;">
+
+            </div>
+            <div class="topic"><span style="font-size: 18px;">ThongTran199</span> <br>Đồ họa</div>
+            <p>
+              Thiết kế nhân vật, vũ khí, bối cảnh
+            </p>
+            <div class="inf-div">
+              <a class="inf-link" href="https://www.facebook.com/van.thong.16548/"><i class="fab fa-facebook-f"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <img src="images/png_client.png" alt="" style="width: 100%; height: auto;border-radius: 50%;">
+
+            </div>
+            <div class="topic"><span style="font-size: 18px;">ThongTran199</span> <br>Âm thanh</div>
+            <p>
+              Xây dựng âm thanh của trò chơi
+            </p>
+            <div class="inf-div">
+              <a class="inf-link" href="https://www.facebook.com/van.thong.16548/"><i class="fab fa-facebook-f"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="inf-link" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact" id="howtoplay">
+      <div class="content">
+        <div class="title"><span>Hướng dẫn cách chơi</span></div>
+        <div class="text">
+          <div class="topic">Trên Linux</div>
+          <ul class="cachchoi">
+            <li> Bước 1: 
+              Một trong hai người chơi ấn đúp vào file server để chạy server
+            </li>
+            <li> Bước 2:
+              Cả hai người chơi ấn đúp vào file client để chạy cửa sổ trò chơi
+            </li>
+            <li> Bước 3: 
+              Click vào cửa sổ trò chơi để xác nhận đã sẵn sàng
+            </li>
+            <li> Bước 4:
+              Nếu một trong hai người chơi chưa xác nhận sẵn sàng, sẽ phải chờ xác nhận
+            </li>
+            <li> Bước 5
+              Cả hai người chơi đều sẵn sàng, bắt đầu trò chơi
+            </li>
+          </ul>
+          <div class="topic" style="margin-top: 10px;">Trên Window</div>
+          <ul class="cachchoi">
+            <li> Bước 1: 
+              Một trong hai người chơi ấn đúp vào file server.exe để chạy server
+            </li>
+            <li> Bước 2:
+              Cả hai người chơi ấn đúp vào file client.exe để chạy cửa sổ trò chơi
+            </li>
+            <li> Bước 3: 
+              Click vào cửa sổ trò chơi để xác nhận đã sẵn sàng
+            </li>
+            <li> Bước 4:
+              Nếu một trong hai người chơi chưa xác nhận sẵn sàng, sẽ phải chờ xác nhận
+            </li>
+            <li> Bước 5
+              Cả hai người chơi đều sẵn sàng, bắt đầu trò chơi
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact controlclass" id="control">
+      <div class="content">
+        <div class="title"><span>Điều khiển nhân vật</span></div>
+        <div class="text">
+          <ul class="dieukien">
+            <li>Di chuyển: Sử dụng các phím mũi tên trên bàn phím để di chuyển</li>
+            <li>Bắn súng: Ấn phím "s" trên bàn phím để bắn</li>
+            <li>Số đạn tối đa: Mỗi người chơi chỉ có tối đa 2 viên đạn trên cửa sổ trò chơi, nếu muốn bắn tiếp phải chờ cho đạn trúng đích, hoặc đạn bay ra ngoài</li>
+            <li>HP: Mỗi người chơi có 5 HP ( trúng đạn tối đa 5 lần )</li>
+            <li>Chướng ngại vật: Mỗi bên của người chơi có một mỏm đá, người chơi có thể nhảy lên để né đạn</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="setup">
+      <div class="content">
+        <div class="title"><span>Hướng dẫn cách cài đặt</span></div>
+        <div class="text">
+          <div class="topic" style="font-weight: bold;">Trên Linux</div>
+          <ul class="cachchoi">
+            <li> Bước 1: 
+              Chọn download dành cho linux ở phía trên, sẽ tải về file có tên Rambo3.tar
+            </li>
+            <li> Bước 2:
+              Vào thư mục chứa Rambo3.tar, mở terminal
+            </li>
+            <li> Bước 3: 
+              Thực hiện câu lệnh <br>
+              <code>tar -xvf Rambo3.tar</code>
+            </li>
+            <li> Bước 4:
+              Giải nén thành công, xuất hiện thư mục ...
+            </li>
+            <li> Bước 5
+              Click đúp vào thư mục, bắt đầu trò chơi
+            </li>
+          </ul>
+          <div class="topic" style="margin-top: 10px;">Trên Window</div>
+          <ul class="cachchoi">
+            <li> Bước 1: 
+              Chọn download dành cho linux ở phía trên, sẽ tải về file có tên Rambo3.zip
+            </li>
+            <li> Bước 2:
+              Vào thư mục chứa Rambo3.zip
+            </li>
+              Click chuột phải vào Rambo3.zip -> chọn Extract Here
+            </li>
+            <li> Bước 4:
+              Giải nén thành công, xuất hiện thư mục ...
+            </li>
+            <li> Bước 5
+              Click đúp vào thư mục, bắt đầu trò chơi
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact libclass" id="lib">
+      <div class="content">
+        <div class="title"><span>Các gói thư viện cần thiết để chạy trò chơi</span></div>
+        <div class="text">
+          <div class="topic" style="font-weight: bold; font-size: 25px;">Trên Linux: Python3, Pygame</div>
+          <div class="topic">Cài đặt python3 trên Linux</div>
+          <ul class="caidatthuvien">
+            <li>
+              Bước 1: Mở Terminal
+            </li>
+            <li> Bước 2: Bắt đầu cài đặt<br>
+              <code>sudo apt update <br>
+                sudo apt install python3</code>
+            </li>
+            <li>
+              Bước 3: Kiểm tra cài đặt
+              Sau khi cài đặt hoàn tất, bạn có thể kiểm tra phiên bản Python 3 bằng cách nhập lệnh sau trong Terminal: <br>
+              <code>python3 --version</code> <br>
+              Nếu Python đã được cài đặt thành công, phiên bản Python và thông tin liên quan sẽ được hiển thị trên màn hình.
+            </li>
+          </ul>
+          <div class="topic" style="margin-top: 10px;">Cài đặt Pygame trên Linux</div>
+          <ul class="caidatthuvien">
+            <li>
+              Bước 1: Cài đặt pip nếu chưa có
+              <code>sudo apt update <br>
+                sudo apt install python3-pip</code>
+            </li>
+            <li> Bước 2: Cài đặt các phụ thuộc cần thiết của pygame <br>
+              <code>sudo apt install python3-dev python3-pygame</code>
+            </li>
+            <li>Bước 3: Cài đặt pygame <br>
+              <code>sudo pip3 install pygame</code>
+            </li>
+            <li>
+              Bước 4: Kiểm tra cài đặt. Mở Terminal nhập lệnh sau: <br>
+              <code>python -m pygame.examples.aliens</code> <br>
+              Nếu một trò chơi Aliens đang chạy, điều này có nghĩa là Pygame đã được cài đặt thành công.
+            </li>
+          </ul>
+          <div class="topic" style="margin-top: 10px; font-weight: bold;font-size: 25px;">Trên Window: Python3, Pygame</div>
+          <div class="topic" style="margin-top: 10px;">Cài đặt Python3 trên Window</div>
+          <ul class="caidatthuvien">
+            <li>
+              Bước 1: Tải xuống trình cài đặt
+              Truy cập trang web chính thức của Python (https://www.python.org/downloads/) và tải xuống phiên bản mới nhất của Python 3.
+              Nhấp đúp vào tệp tin cài đặt đã tải xuống để bắt đầu quá trình cài đặt.
+            </li>
+            <li> Bước 2: Bắt đầu cài đặt
+              Chọn "Install Now" để cài đặt Python 3 với các tùy chọn mặc định.
+              Nếu bạn muốn thay đổi cài đặt hoặc cài đặt Python 3 cho một người dùng khác, hãy chọn "Customize installation".
+            </li>
+            <li>Bước 3: Chờ đợi quá trình cài đặt hoàn tất
+              Chờ đợi quá trình cài đặt hoàn tất, điều này có thể mất vài phút tùy thuộc vào tốc độ máy tính của bạn.
+            </li>
+            <li>
+              Bước 4: Kiểm tra cài đặt
+              Mở cửa sổ Command Prompt bằng cách bấm phím "Win + R" sau đó gõ "cmd" và nhấn Enter.
+              Nhập lệnh "python" để kiểm tra xem Python đã được cài đặt thành công chưa.
+              Nếu Python đã được cài đặt thành công, phiên bản Python và thông tin liên quan sẽ được hiển thị trên màn hình.
+            </li>
+          </ul>
+          <div class="topic" style="margin-top: 10px;">Cài đặt Pygame trên Window</div>
+          <ul class="caidatthuvien">
+            <li>
+              Bước 1: Mở Command Prompt
+            </li>
+            <li> Bước 2: Cài đặt pip nếu chưa có <br>
+              <code>python -m ensurepip --default-pip</code>
+            </li>
+            <li>Bước 3: Cài đặt pygame <br>
+              <code>pip install pygame</code>
+            </li>
+            <li>
+              Bước 4: Kiểm tra cài đặt. Mở cửa sổ Command Prompt bằng cách bấm phím "Win + R" sau đó gõ "cmd" và nhấn Enter.Nhập lệnh sau:
+             <br> <code>python -m pygame.examples.aliens</code> <br>
+              Nếu một trò chơi Aliens đang chạy, điều này có nghĩa là Pygame đã được cài đặt thành công.
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <!-- <footer>
+      <div class="text">
+        <span
+          >Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights
+          Reserved</span
+        >
+        <span> - Edited By <a href="#">My Team</a> | 2023</span>
+      </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
